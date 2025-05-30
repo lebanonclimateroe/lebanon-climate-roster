@@ -248,7 +248,7 @@
       });
     });
 
-    fetch('https://wtrdavies.github.io/roster-of-experts/data/roster.json')
+    fetch('/data/roster.json')
       .then(response => response.json())
       .then(data => {
         // Process data to add hyperlinks and handle formatting
